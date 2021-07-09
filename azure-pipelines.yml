@@ -14,5 +14,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
+    curl ifconfig.me
     ping -c 3 dev.nri-europe.com
   displayName: 'Run a multi-line script'
